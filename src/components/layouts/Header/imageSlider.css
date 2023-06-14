@@ -1,0 +1,149 @@
+.contain {
+  background-color: #edf5f8;
+  width: 100%;
+  height: 650px;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+}
+
+.inner-contain {
+  position: relative;
+  margin-left: 130px;
+  width: 85%;
+  height: 650px;
+  margin-top: 110px;
+}
+.upper-contain {
+  position: relative;
+  margin-left: 125px;
+  width: 85%;
+  height: 650px;
+  margin-top: 100px;
+}
+
+.para {
+  display: flex;
+  width: 90%;
+  height: 85%;
+  margin-left: 60px;
+  margin-top: -110px;
+}
+.para1 {
+  display: flex;
+  width: 90%;
+  height: 85%;
+
+  margin-left: 60px;
+  margin-top: -100px;
+}
+
+.para > p {
+  margin-left: 0px;
+  margin-top: 80px;
+  text-decoration: underline;
+  color: blue;
+  font-weight: bold;
+  font-size: 1.1rem;
+  text-decoration-color: rgb(255, 0, 183);
+}
+.para1 > p {
+  text-decoration: underline;
+  color: blue;
+  font-weight: bold;
+  font-size: 1.1rem;
+  text-decoration-color: rgb(255, 0, 183);
+  margin-top: 100px;
+}
+
+.h1 {
+  font-size: 3.3rem;
+  margin-top: 150px;
+  margin-left: -270px;
+  font-weight: 800;
+}
+
+.h5 {
+  font-size: 3.4rem;
+  font-weight: 400;
+  margin-top: 150px;
+  margin-left: -272px;
+}
+.h6 {
+  font-size: 3.4rem;
+  margin-top: 220px;
+  margin-left: -447px;
+}
+.para > h2 {
+  margin-top: 150px;
+  font-size: 3.3rem;
+  margin-left: 20px;
+  font-weight: 400;
+}
+.para > h3 {
+  margin-top: 215px;
+  margin-left: -545px;
+  font-weight: 400;
+  font-size: 3.3rem;
+}
+
+.para > h4 {
+  margin-top: 300px;
+  margin-left: -460px;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.button1 {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  margin-left: -445px;
+  position: relative;
+  margin-top: 400px;
+}
+.large-button {
+  width: 158px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 150px;
+  height: 70px;
+}
+
+.button1 .more-details,
+.button1 .our-services {
+  color: white;
+  text-transform: none;
+  font-size: 1.1rem;
+}
+.button1 .more-details:hover,
+.button1 .our-services:hover {
+  background-color: black;
+}
+.button1 .more-details {
+  background-color: rgb(255, 0, 183);
+}
+
+.button1 .our-services {
+  background-color: blue;
+  margin-left: 40px;
+}
+.new {
+  width: 50%;
+  height: 100%;
+  margin-left: 240px;
+}
+.round {
+  height: 100%;
+}
+.image2 {
+  height: 100%;
+  margin-top: -554px;
+  margin-left: 1px;
+}
+.new1 {
+  width: 500px;
+  height: 100%;
+  margin-left: 240px;
+}
