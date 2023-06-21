@@ -10,7 +10,7 @@ function App() {
     <>
       <Header2 />
       <Header3 />
-      <Image />
+      {/* <Image /> */}
     </>
   );
 }
