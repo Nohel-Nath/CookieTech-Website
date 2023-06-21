@@ -3,11 +3,11 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "./imageSlider.css";
 
-import curve from "../../../images/banner-curve-two.png";
+import curve from "../../../../images/banner-curve-two.png";
 import Button from "@mui/material/Button";
-import round from "../../../images/round-box.png";
-import image2 from "../../../images/content-image-2.png";
-import image3 from "../../../images/content-image-1.png";
+import round from "../../../../images/round-box.png";
+import image2 from "../../../../images/content-image-2.png";
+import image3 from "../../../../images/content-image-1.png";
 
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -28,7 +28,7 @@ const Image = () => {
 
   return (
     <>
-      <div className="contain">
+      <div className="contain1">
         <AnimatePresence initial={false}>
           <Carousel
             interval={10000}
